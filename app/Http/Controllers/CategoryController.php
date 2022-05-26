@@ -43,7 +43,8 @@ class CategoryController extends Controller
     {
         //store record
         // dd($request->all());
-        $image = $request->file('image')->store('public/category');
+        // $image = $request->file('image')->store('public/category');
+        $image = $request->file('image')->store('https://github.com/jaddropshop1991/ClassifiedAds/tree/main/storage/app/public/category');
         Category::create([
             'name'=>$name = $request->name,
             'image'=>$image,
