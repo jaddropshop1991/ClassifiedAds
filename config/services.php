@@ -30,16 +30,16 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
-    'facebook'=> [
-        'client_id'=>'587396752525682',
-        'client_secret'=>'61fe2c15ff77038f4dcbabff8d792140',
-        'redirect'=>'http://laravel-classified-ads.herokuapp.com/auth/facebook/callback'
-    ]
+   // 'facebook'=> [
+    //    'client_id'=>'587396752525682',
+    //    'client_secret'=>'61fe2c15ff77038f4dcbabff8d792140',
+    //    'redirect'=>'https://laravel-classified-ads.herokuapp.com/auth/facebook/callback'
+   // ]
 
-    // 'facebook' => [
-    //     'client_id' => '3402853389825442',
-    //     'client_secret' => '079c9e6622fa14ad7b8a7d1496a3a490',
-    //     'redirect' => 'http://localhost:8000/auth/facebook/callback',
-    // ],
+     'facebook' => [
+         'client_id' => '3402853389825442',
+         'client_secret' => '079c9e6622fa14ad7b8a7d1496a3a490',
+         'redirect' => 'https://laravel-classified-ads.herokuapp.com/auth/facebook/callback',
+     ],
 
 ];
