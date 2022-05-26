@@ -26,7 +26,7 @@
 
                                 <div class="form-group">
                                     <label for="image">Image</label>
-                                    <input type="text" class="form-control @error('image') is-invalid @enderror"
+                                    <input type="file" class="form-control @error('image') is-invalid @enderror"
                                         name="image">
                                     @error('image')
                                         <span class="invalid-feedback" role="alert">
