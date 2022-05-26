@@ -43,11 +43,16 @@ class CategoryController extends Controller
     {
         //store record
         // dd($request->all());
-        $image = $request->file('image')->store('public/category');
+        
+        //edited this for url and not file upload
+       // $image = $request->file('image')->store('public/category');
       
         Category::create([
             'name'=>$name = $request->name,
-            'image'=>$image,
+            
+           // 'image'=>$image,
+            'image'=>$image = $request->image,
+            
             'slug'=>Str::slug($name)
         ]);
         return redirect()->route('category.index')->with('message','Category created successfully');
