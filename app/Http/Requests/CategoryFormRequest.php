@@ -27,7 +27,7 @@ class CategoryFormRequest extends FormRequest
             //
             'name' => 'required|min:2|max:50|unique:categories',
             //'image'=>'required|mimes:png,jpg,jpeg',
-            'image'=>'required,
+           
 
         ];
     }
