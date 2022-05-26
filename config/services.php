@@ -31,8 +31,8 @@ return [
     ],
 
     'facebook'=> [
-       'client_id'=>'587396752525682',
-        'client_secret'=>'61fe2c15ff77038f4dcbabff8d792140',
+       'client_id'=>'597431494728117',
+        'client_secret'=>'e9c0047079a4e323621b511bf0370447',
         'redirect'=>'https://laravel-classified-ads.herokuapp.com/auth/facebook/callback'
     ]
 
