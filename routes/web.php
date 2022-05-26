@@ -145,6 +145,3 @@ Route::post('/report-this-ad', 'FraudController@store')->name('report.ad');
 
 
 
-Route::get('/sym', function () {
-    Artisan::call('storage:link');
-});
