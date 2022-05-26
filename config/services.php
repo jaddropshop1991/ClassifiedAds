@@ -33,7 +33,7 @@ return [
     'facebook'=> [
         'client_id'=>'587396752525682',
         'client_secret'=>'61fe2c15ff77038f4dcbabff8d792140',
-        'redirect'=>'https://laravel-classified-ads.herokuapp.com/auth/facebook/callback'
+        'redirect'=>'http://laravel-classified-ads.herokuapp.com/auth/facebook/callback'
     ]
 
     // 'facebook' => [
