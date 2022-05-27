@@ -36,7 +36,10 @@
     @foreach($categs as $categ)
     <div class="col-lg-3 col-md-4 col-lg" id="card">
       <a href="{{ route('category.show', $categ->slug) }}" class="d-block mb-4 h-100">
-      <img src="{{ Storage::url($categ->image) }}" style="width:50%" class="img-fluid img-thumbnail" alt="">
+    {{--  <img src="{{ Storage::url($categ->image) }}" style="width:50%" class="img-fluid img-thumbnail" alt=""> --}}
+      
+      <img src="{{ $categ->image }}" style="width:50%" class="img-fluid img-thumbnail" alt="">
+      
     <p class="">{{ $categ->name }}</p>
     </a>
       </div>      
